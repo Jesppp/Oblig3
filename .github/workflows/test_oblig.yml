@@ -1,8 +1,9 @@
 name: Python tests
 
-on: push
+on: [ push ]
 
-permissions: read
+permissions: 
+  contents: read
 
 jobs:
   run-tests:
